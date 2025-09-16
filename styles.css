@@ -1,11 +1,9 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -17,7 +15,6 @@ section {
   text-align: center;
 }
 
-/* Navbar */
 nav {
   background: #333;
   padding: 1em;
@@ -44,7 +41,6 @@ nav a:hover {
   transition: 0.3s;
 }
 
-/* Hero */
 #hero {
   background: #f4f4f4;
   padding: 6em 2em;
@@ -70,7 +66,6 @@ nav a:hover {
   transition: 0.3s;
 }
 
-/* Features */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -86,7 +81,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Contact Form */
 form {
   display: flex;
   flex-direction: column;
@@ -114,7 +108,6 @@ form button:hover {
   background: #555;
 }
 
-/* Footer */
 footer {
   background: #333;
   color: white;
@@ -126,3 +119,4 @@ footer a {
   color: #f4d03f;
   text-decoration: none;
 }
+
